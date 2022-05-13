@@ -21,4 +21,6 @@ for (int i = 0; i < s.length(); i++) {
 		if (s[i] >= 'A' && s[i] <= 'Z') s[i] = s[i] + 'a' - 'A';
 	}
 ```
-2.
+2. map
+
+map은 key 값을 기준으로 insert 할 때 자동으로 정렬 
