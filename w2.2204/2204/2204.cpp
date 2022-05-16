@@ -30,6 +30,8 @@ int main() {
 			m.insert({ Atoa(s), i });
 		}
 
-		cout << str[m.begin()->second] << endl;
+		for (map<string, int>::iterator iter = m.begin(); iter != m.end(); iter++) {
+			cout << iter->first << " " << iter->second << endl;
+		}
 	}
 }
